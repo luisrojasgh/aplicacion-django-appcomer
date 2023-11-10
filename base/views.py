@@ -10,9 +10,9 @@ def principal(request):
     }
     return render(request, "index.html", context)
 
-""" def principal_admin(request):
+def principal_admin(request):
     titulo="Bienvenido"
     context={
         "titulo": titulo,
     }
-    return render(request, "index-admin.html", context) """
+    return render(request, "index-admin.html", context)
